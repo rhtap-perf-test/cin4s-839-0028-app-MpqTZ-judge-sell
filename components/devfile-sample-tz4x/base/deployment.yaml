@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-tz4x
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0028-tenant/cin4s-839-0028-app/devfile-sample-tz4x@sha256:34fc9c627ca6c6ddbf399ad48d914fdf16da9befbaa220f5f6868cf534ffecb5
         name: my-nodejs
         ports:
         - containerPort: 3001
